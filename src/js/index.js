@@ -2,7 +2,7 @@ const gallery = document.querySelector('.gallery');
 const searchForm = document.querySelector('.search-form');
 const input = document.querySelector('input[name="searchQuery"]');
 const buttonLoadMore = document.querySelector('.load-more');
-const newPhoto = [];
+
 import Notiflix from 'notiflix';
 import { getPhoto } from './api';
 import simpleLightbox from 'simplelightbox';
